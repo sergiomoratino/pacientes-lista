@@ -24,3 +24,6 @@ TRABAJO SIN TERMINAR
 
 Obtención de listado de pacientes e instalación de Quasar Framework.
 Utilización de VUEX con VUE V3
+
+
+TIEMPO UTLIZADO PARA EL RESULTADO OBTENIDO: 4 horas
