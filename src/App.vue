@@ -1,6 +1,7 @@
 <template>
-  <div class="container">
-    <div class="row">
+  <div>
+    <div>
+      <h1 align="center">Listado de pacientes</h1>
       <Table 
         :pacientes="pacientes"
       />
@@ -25,7 +26,6 @@ export default {
     Table
   },
   setup() {
-    const paciente = []
     const clinica = useStore()
     onMounted(() => {
       clinica.dispatch('fetchData')

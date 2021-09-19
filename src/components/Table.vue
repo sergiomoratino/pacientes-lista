@@ -7,13 +7,17 @@
                   <thead class="thead-dark">
                      <tr>
                         <th scope="col">Nombre y Apellidos</th>
+                        <th scope="col">Fecha Nacimiento</th>
+                        <th scope="col">Sexo</th>
                         <th scope="col">Clinica</th>
-                        <th scope="col">Dirección</th>
+                        <th scope="col">Estado</th>
                      </tr>
                   </thead>
                   <tbody>
                      <tr v-for="paciente of pacientes" :key="paciente">
-                        <th scope="row">{{ paciente.datos_paciente.nombre }} {{ paciente.datos_paciente.apellidos }}</th>                       
+                        <th scope="row">{{ paciente.datos_paciente.nombre }} {{ paciente.datos_paciente.apellidos }}</th>    
+                        <td>{{ paciente.datos_paciente.fecha_nacimiento }}</td>
+                        <td>{{ paciente.datos_paciente.sexo }}</td>
                         <td>{{ paciente.ficha_dental.clinica }}</td>
                         <td>{{ paciente.ficha_dental.estado }}</td>
                      </tr>

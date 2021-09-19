@@ -17,3 +17,10 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+TRABAJO SIN TERMINAR
+
+Obtención de listado de pacientes e instalación de Quasar Framework.
+Utilización de VUEX con VUE V3
